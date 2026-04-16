@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+#hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 40px;
+}
+
+#hero button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
