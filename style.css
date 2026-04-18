@@ -105,13 +105,17 @@ section {
 
 /* Buttons */
 .project-buttons a {
-    border: 1px solid var(--primary);
-    color: var(--primary);
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background: #2a5298;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .project-buttons a:hover {
-    background: var(--primary);
-    color: var(--white);
+    background: #1e3c72;
 }
 
 .projects-container {
@@ -242,9 +246,11 @@ nav {
     background: var(--primary);
     color: white;
 }
+
 section {
     padding: 70px 20px;
 }
+
 .hero-buttons a {
     text-decoration: none;
     margin: 10px;
@@ -270,6 +276,7 @@ section {
 .hero-buttons a:hover {
     transform: scale(1.05);
 }
+
 section {
     scroll-margin-top: 80px;
 }
