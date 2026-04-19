@@ -14,6 +14,7 @@ This is my personal portfolio website showcasing my projects, technical skills, 
 - CSS
 - JavaScript
 
+
 ## 📂 Projects Included
 ### 1. 📚 Book AI Project
 A full-stack application that allows users to interact with book-related queries using a backend API.
